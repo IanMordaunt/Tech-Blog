@@ -7,3 +7,17 @@
           onsubmit="handleLogoutButton"
         >Add Post</a>
       {{/if}}
+
+
+{{#if posts.length}}
+<section>
+  <h2>Your Posts</h2>
+    {{#each posts as |post|}}
+      {{> dashboard-postinfo post}}
+    {{/each}}
+
+</section>
+{{/if}}
+
+
+<script src="../public/js/new-post.js"></script>
