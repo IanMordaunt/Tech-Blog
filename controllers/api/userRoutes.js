@@ -84,14 +84,14 @@ router.post('/login', (req, res)=>{
     }
   }).then((userData)=>{
     if(!userData){
-      res.status(400).json({message: "no user found!"})
+      res.status(400).json({message: "Invalid Credentials!"})
       return
     }
 
     const passwordOk = userData.checkPassword(req.body.password);
 
     if(!passwordOk){
-      res.status(400).json({message: "Incorrect Password!"})
+      res.status(400).json({message: "Invalid Credentials!"})
       return
     }
 

@@ -1,10 +1,10 @@
 const router = require('express').Router();
 const req = require('express/lib/request');
 const res = require('express/lib/response');
-const { Comment } = require('../../models');
+const { Comment, User } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-router.get('/', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
    try{
     const commentData = await Comment.findAll()
 
