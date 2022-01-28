@@ -1,3 +1,4 @@
+// module.exports = Post;
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
@@ -13,36 +14,26 @@ Post.init(
     },
     title: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     content: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    creator: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    date: {
-      type: DataTypes.DATE,
-      allowNull: false
-    },
-    creator_id: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.TEXT,
       allowNull: false,
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
       references: {
-        model: 'user',
-        key: 'id'
-      }
-    }
+        model: "user",
+        key: "id",
+      },
+    },
   },
   {
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'blogPost',
+    modelName: "post",
   }
 );
-
 
 module.exports = Post;
