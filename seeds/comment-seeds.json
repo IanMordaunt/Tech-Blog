@@ -1,16 +1,17 @@
-
+[
     {
-        "comment_text": "This item was amazing",
-        "parts_id": 2,
+        "comment_text": "Sooo cool.",
+        "post_id": 2,
         "user_id": 3
     },
     {
-        "comment_text": "Mine didn't work well",
-        "parts_id": 5,
+        "comment_text": "Love this site. So helpfull and fun packed!",
+        "post_id": 5,
         "user_id": 1
     },
     {
-        "comment_text": "Mine worked great",
-        "parts_id": 5,
+        "comment_text": "Collest blog out there.",
+        "post_id": 5,
         "user_id": 2
-    },
+    }
+]

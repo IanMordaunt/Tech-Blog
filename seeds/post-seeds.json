@@ -1,17 +1,17 @@
 [
     {
-      "title": "Music Near Me",
-      "post_content": "A mobile app that will send you notifications whenever a concert is playing in your area.",
+      "title": "Tech Magazine",
+      "content": "A magainze focusing on the newest technology.",
       "user_id": 1
     },
     {
-      "title": "The Ultimate Tech Quiz",
-      "post_content": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
+      "title": "Codecademy",
+      "content": "A website that helps aspiring developers learn how to code im multiple languages.",
       "user_id": 2
     },
     {
-      "title": "Roll 'Em Up",
-      "post_content": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
+      "title": "Tech Blog",
+      "content": "A blog about Tech.",
       "user_id": 3
     }
   ]

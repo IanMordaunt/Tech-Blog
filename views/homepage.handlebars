@@ -1,14 +1,8 @@
-<div class="row">
-    {{#each data as |post|}}
-    <div class="col-4">
-        <div class="card m-5 shadow-lg" id="blogPost" style="width: 30rem;">
-            <div class="card-body">
-                <h5 class="card-title">{{post.title}}</h5>
-                <p class="card-text">{{post.body}}</p>
-                 <span class="card-text">{{blog.creator}}</span>
-                <span class="card-text">{{blog.date}}</span>
-            </div>
-        </div>
-    </div>
+ 
+<article class="post">
+
+    {{#each posts as |post| }}
+        {{> post-info post}}
     {{/each}}
-</div>
+
+</article>
