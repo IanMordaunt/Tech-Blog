@@ -1,8 +1,8 @@
 
 {{#if posts.length}}
 <section>
-  <h2>Your Posts</h2>
-    {{#each posts as |post|}}
+  <h2 class="dashboardPostHeader">Your Posts</h2>
+   {{#each posts as |post|}}
       {{> dashboard-postinfo post}}
     {{/each}}
 

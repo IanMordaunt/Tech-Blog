@@ -129,6 +129,7 @@ label {
 }
 /* Login/ Signup Page */
 
+/* Dashboard */
 #newPostBtn {
     margin: 5% 0% 0% 40%;
     font-size: 4rem;
@@ -140,8 +141,35 @@ label {
 #newPostBtn a {
     color: rgb(95, 156, 156);
     font-family: monospace;
+    background-color: burlywood;
+    font-weight: 700;
 }
 
+#newPostBtn:hover {
+    transform: scale(1.25);
+}
+
+.dashboardPostHeader {
+    text-align: center;
+    font-size: 3rem;
+    font-family: monospace;
+    color: burlywood;
+    background-color: rgb(95, 156, 156);
+}
+
+#postRef {
+    font-size: 3rem;
+    color: rgb(95, 156, 156);
+    text-decoration: none;
+}
+
+#postRef:hover {
+    opacity: 0.5;  
+}
+/* Dashboard */
+
+
+/* New Post  */
 #newpostCard {
     margin: 3% 0% 0% 3%;
 }
@@ -165,6 +193,27 @@ label {
     font-weight: 700;
     background-color: burlywood;
 }
+/* New Post  */
+
+
+/* Edit Post */
+#editPostHeader {
+    font-size: 3rem;
+    color: burlywood;
+    font-family: monospace;
+    text-decoration: underline;
+}
+
+#updateDeleteBtn {
+    font-size: 2rem;
+    background-color: burlywood;
+    font-family: monospace;
+    color:rgb(95, 156, 156);
+    font-weight: 700;
+}
+/* Edit Post */
+
+
 
 
 
