@@ -1,6 +1,5 @@
 # Tech-Blog
 
-
   ## Table of Contents
   *[Description](#description)
 
