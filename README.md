@@ -66,5 +66,5 @@
 
   GitHub: <a href="https://www.github.com/IanMordaunt" target="_blank">IanMordaunt</a>
   
-
+![Tech-Blog](https://github.com/IanMordaunt/Tech-Blog/blob/main/assets/MVC%20Tech%20Blog.png)
   
