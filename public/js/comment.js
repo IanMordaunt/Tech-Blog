@@ -21,6 +21,7 @@ async function commentFormHandler(event) {
 
         if (response.ok) {
             document.location.reload();
+            console.log("its connecting")
 
         } else {
             alert(response.statusText);

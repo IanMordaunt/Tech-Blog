@@ -10,15 +10,15 @@
 
 <body>
   <div class="wrapper">
-      <header class="hero">
+      <header class="headerContainer">
           <div>
             <nav class"nav">
-                    <a class="link" href="/">Home</a>
-                    <a class="link" href="/dashboard">Dashboard</a>
+                    <a class="link1" href="/">Home</a>
+                    <a class="link1" href="/dashboard">Dashboard</a>
                     {{#if loggedIn}}
-                    <a class="link" href="/" id="logout">Logout</a>
+                    <a class="link1" href="/" id="logout">Logout</a>
                     {{else}}
-                    <a class="link" href="/login">Login</a>
+                    <a class="link1" href="/login">Login</a>
                     {{/if}}
                 </nav>          
           </div>
@@ -35,6 +35,15 @@
     <script src="/js/logout.js"></script>
     {{/if}}
 
+
+<footer>
+  <div class="footerContainer">
+    <p class="footerText"></p>
+
+  </div>
+</footer>
 </body>
+
+
 
 </html>

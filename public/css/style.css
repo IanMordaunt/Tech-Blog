@@ -1,0 +1,172 @@
+
+body {
+    background-color:rgb(236, 227, 208);
+}
+
+
+/* Main Header */
+.headerContainer {
+    background-color: rgb(95, 156, 156);
+    height: 200px;
+}
+
+.app-title {
+    color:  rgb(95, 156, 156);
+    margin-left: 2%;
+    text-align: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: burlywood;
+    background-color: burlywood;
+    border-radius: 10px;
+    width: 510px;
+    box-shadow: brown 5px 5px 0px 0px;
+    font-size: 4rem;
+    font-family: monospace;
+}
+
+.link1 {
+    font-size: 2.25rem;
+    font-family: monospace;
+    text-decoration: none;
+    padding-right: 20px;
+    margin-left: 2%;
+    color: burlywood;
+    font-weight: 600;
+}
+/* Main Header */
+
+/* Post Cards */
+.postCard {
+    margin-top: 20px;
+    padding-top: 5px;
+    border-style: solid;
+    background-color: burlywood;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    border-color: rgb(95, 156, 156);
+    border-radius: 10px;
+}
+
+.cardHeader {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: -1.2%;
+    height: 60px;
+    background-color: rgb(95, 156, 156);
+}
+
+
+.Postlink {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: burlywood;
+    font-family: monospace;
+}
+
+h4:hover {
+    transform: scale(1.5);
+
+}
+
+.card-body1 {
+    text-decoration: underline;
+    font-size: 1.75rem;
+    color: rgb(95, 156, 156);
+    font-family: monospace;
+}
+
+.card-body {
+    font-size: 1.75rem;
+    color: rgb(95, 156, 156);
+    font-family: monospace;
+}
+
+/* Post Cards */
+
+
+/* Footer */
+.footerContainer {
+    text-align: center;
+    height: 5.5rem;
+    background-color: rgb(95, 156, 156);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Footer */
+
+
+/* Login/ Signup Page */
+#loginRow {
+    
+  margin-left: 30%;
+    display: inline-flex;
+
+}
+
+#loginCol {
+    padding-right: 480px;
+}
+
+.lsTitle {
+    font-size: 3rem;
+    color: burlywood;
+}
+
+label {
+    font-size: 2.5rem;
+    color: rgb(95, 156, 156) ;
+}
+
+#signupBtn {
+    margin-top: 8px;
+    font-size: 2rem;
+    background-color: burlywood;
+    color:rgb(95, 156, 156);
+}
+/* Login/ Signup Page */
+
+#newPostBtn {
+    margin: 5% 0% 0% 40%;
+    font-size: 4rem;
+    font-family: monospace;
+    border-radius: 10px;
+   
+}
+
+#newPostBtn a {
+    color: rgb(95, 156, 156);
+    font-family: monospace;
+}
+
+#newpostCard {
+    margin: 3% 0% 0% 3%;
+}
+
+#newpostHeader {
+    font-size: 3rem;
+    font-family: monospace;
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.form-input {
+    margin-right: 30px;
+    margin-left: 30px;
+    transform: scale(1.5);
+}
+
+#createBtn {
+    font-size: 2rem;
+    color: rgb(95, 156, 156);
+    font-weight: 700;
+    background-color: burlywood;
+}
+
+
+
+
+

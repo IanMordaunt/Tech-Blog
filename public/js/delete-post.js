@@ -10,7 +10,7 @@ async function deleteFormHandler(event) {
         body: JSON.stringify({
           post_id: id
         }),
-        headers: {'content-type': 'application/json'}
+        headers: {'Content-Type': 'application/json'}
       });
       
       if (response.ok) {

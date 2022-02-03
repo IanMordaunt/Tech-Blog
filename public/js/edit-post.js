@@ -17,7 +17,7 @@ async function editFormHandler(event) {
           title,
           content
         }),
-        headers: { 'content-type': 'application/json'}
+        headers: { 'Content-Type': 'application/json'}
       });
       
       if (response.ok) {
